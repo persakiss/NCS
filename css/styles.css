@@ -20,13 +20,17 @@ footer {
 }
 
 .jumbotron {
-    paddin: 30px; 
-    background-image: linear-gradient(to right, #5637DD, #3046C5, #601068)
-
+    padding: 30px; 
+    background-image: linear-gradient(to right, #5637DD, #3046C5, #601068);
+    margin: 0;
 }
 
 .row-content {
     padding: 50px 0;
     border-bottom: 1px ridge;
     min-height: 200px;
+}
+
+.navbar {
+    background-color: #901CAD
 }
