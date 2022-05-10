@@ -83,7 +83,7 @@
                         <h3>React Lake Campground</h3>
                         <p class="d-none d-sm-block">Nestled in the foothills of the Chrome Mountains, this campground on the shores of the pristine React Lake is a favorite for fly fishers.</p>          
                     </div>
-                    <img src="img/react-lake-thumb.jpg" class="d-flex img-thumbnail ml-3" />
+                    <img src="img/react-lake-thumb.jpg" class="d-flex img-thumbnail ml-3" alt="React Lake" />
                 </div>
             </div>
         </div>
@@ -106,15 +106,16 @@
         <div class="row row-content">
             <div class="col-sm-6 mx-auto">
                 <div class="card">
-                    <h3 class="card-header bg-info text-white">
-                        Reserve a Campsite
-                    </h3>
+                    <h3 class="card-header bg-info text-white">Reserve a Campsite</h3>
                     <div class="card-body">
                         <form id="reserveForm">
+                            <!-- BS Form-group class adds padding and styling -->
                             <div class="row form-group">
+                                <!-- label for should match input/select id -->
                                 <label for="numCampers" class="col-sm-6 col-form-label align-self-center">Number of Campers</label>
                                 <div class="col-sm-6">
                                     <select name="numCampers" id="numCampers" class="form-control">
+                                        <!-- boolean attribute selected -->
                                         <option selected>Select...</option>
                                         <option value="1">1</option>
                                         <option value="2">2</option>
@@ -129,7 +130,7 @@
                                 <label for="date" class="col-sm-6 col-form-label">Date</label>
                                 <div class="col-sm-6">
                                     <!-- Weird placeholder -->
-                                    <input type="date" id="date" class="form-control" placeholder="date" name="date">
+                                    <input type="date" id="date" class="form-control" placeholder="date" name="Date">
                                 </div>
                             </div>
                             <div class="row form-group">
