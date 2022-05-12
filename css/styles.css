@@ -38,3 +38,9 @@ header h2 {
 .text-primary { 
     color: white;
 }
+
+.tab-content {
+    border: 1px solid #ddd;
+    border-top: none;
+    padding: 10px;
+}
