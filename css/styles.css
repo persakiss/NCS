@@ -1,42 +1,42 @@
 body {
-    font-family: "Open Sans", sans-serif
+  font-family: "Open Sans", sans-serif;
 }
 
 h1, h2, h3 {
-    font-family: "Lobster", cursive;
+  font-family: "Lobster", cursive;
 }
 
-h2 { 
-    color: #3046C5;
+h2 {
+  color: #3046C5;
 }
 
 header h2 {
-    color: #CEC8ff;
+  color: #CEC8ff;
 }
 
-.site-footer { 
-    background-image: linear-gradient(#CEC8ff, white);
-    padding: 20px 0;
+.site-footer {
+  background-image: linear-gradient(#CEC8ff, white);
+  padding: 20px 0;
 }
 
 .jumbotron {
-    padding: 30px; 
-    background-image: linear-gradient(to right, #5637DD, #3046C5, #601068);
-    margin: 0;
+  padding: 30px;
+  background-image: linear-gradient(to right, #5637DD, #3046C5, #601068);
+  margin: 0;
 }
 
 .row-content {
-    padding: 50px 0;
-    border-bottom: 1px ridge;
-    min-height: 200px;
+  padding: 50px 0;
+  border-bottom: 1px ridge;
+  min-height: 200px;
 }
 
 .navbar {
-    background-color: #901CAD
+  background-color: #901CAD;
 }
 
-.text-primary { 
-    color: white;
+.text-primary {
+  color: white;
 }
 
 /* .tab-content {
@@ -44,24 +44,25 @@ header h2 {
     border-top: none;
     padding: 10px;
 } */
-
 .acc-header {
-    color: inherit;
-    text-decoration: none;
+  color: inherit;
+  text-decoration: none;
 }
 
 .carousel-caption {
-    /* black with 50% transparency [alpha channel] */
-    background-color: rgba(0, 0, 0, 0.5);
+  /* black with 50% transparency [alpha channel] */
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .carousel {
-    border: solid #5673D0;
+  border: solid #5673DD;
 }
 
 #carouselButton {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    z-index: 100;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
 }
+
+/*# sourceMappingURL=styles.css.map */
