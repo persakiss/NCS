@@ -1,6 +1,20 @@
 
+
 /// jQuery script, click method sets up an event handler that runs the attached function on click of the respective ID
 $(function () {
+
+
+
+    //jQuery Modals
+    $("#reserveButton").click(function() {
+        $('#reserveModal').modal('show');
+    })
+
+    $("#loginButton").click(function() {
+        $('#loginModal').modal('show');
+    })
+
+
     $(".carousel").carousel({ interval: 2000 });
     $("#carouselButton").click(function () {
         if ($("#carouselButton").children("i").hasClass("fa-pause")) {
